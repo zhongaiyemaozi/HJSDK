@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app_Name</key>
+	<string>小七Demo</string>
+	<key>app_key</key>
+	<string>87bb4e26adae1255c79545fd8be8043e</string>
+	<key>client_key</key>
+	<string>87bb4e26adae1255c79545fd8be8043e</string>
+	<key>app_id</key>
+	<string>121622</string>
+	<key>channel_id</key>
+	<string>130</string>
+	<key>game_id</key>
+	<string>com.hnqy.yxqj.x7sy</string>
+</dict>
+</plist>
