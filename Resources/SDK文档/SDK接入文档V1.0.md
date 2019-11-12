@@ -7,6 +7,9 @@
 ## 项目配置
 
 > info.plist文件配置，直接拷贝以下key/value值到项目中info.plist文件内
+
+![截图](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/InfoPlist.png)
+
 ```
 <key>CFBundleURLTypes</key>
 <array>
@@ -76,12 +79,17 @@
 
 > Target - Build Phases - Embed Frameworks 选项中引用DynamicLibrary.framework，SMSDK.framework，HJAggregationSDK.framework三个动态库（或是在Target - General - Embedded Binaries中引入上面三个动态库）
 
+![Embed](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/EmbedFrameworks.png)
+
+
 > 设置Bitcode为No
 
 > Target - Build Settings - Enable Bitcode 选项设置为NO
-
+![Bitcode](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/Bitcode.png)
 
 ## SDK参数处理
+
+### GamePlbulic.plist文件配置
 > 只需要更改Plist文件夹中GamePlbulic.plist中对应的数据
 
 > App_Name：App名称
@@ -90,6 +98,10 @@
 
 >App_Channelld：未提供不更改（默认131），提供了更改成对应的数据
 
+![GamePlbulic](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/GamePlbulic.png)
+
+### GameParametersList.plist文件配置
+![GamePlbulic](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/GameChannePlist.png)
 
 ## 代码处理（只需要对接HJAggregationSDK.framework的对外接口）
 
@@ -131,18 +143,18 @@
 
 ```
 NSDictionary *userDict = @{
-    @"key_dataType" : @"0",//数据类型，1为进入游戏，2为创建角色，3为角色升级，4为退出，5为充值
-    @"key_serverId" : @"0",//角色所在的serverid
-    @"key_serverName" : @"剑域1服00",//服务器名
-    @"key_roleId" : @"10000010",//角色id
-    @"key_roleName" : @"空若冰qq",//角色名字
-    @"key_roleLevel" : @"1",//角色等级
-    @"key_roleVip" : @"1",//角色VIP等级
-    @"key_roleBalence" : @"0",//角色游戏币余额
-    @"key_partyName" : @"testparty",//公会名字，可选
-    @"key_rolelevelCtime" : @"0",//创建角色的时间 时间戳（秒级别）
-    @"key_rolelevelMtime" : @"0",//角色等级变化时间 时间戳
-    @"key_currencyName":@"元宝"//货币名
+@"key_dataType" : @"0",//数据类型，1为进入游戏，2为创建角色，3为角色升级，4为退出，5为充值
+@"key_serverId" : @"0",//角色所在的serverid
+@"key_serverName" : @"剑域1服00",//服务器名
+@"key_roleId" : @"10000010",//角色id
+@"key_roleName" : @"空若冰qq",//角色名字
+@"key_roleLevel" : @"1",//角色等级
+@"key_roleVip" : @"1",//角色VIP等级
+@"key_roleBalence" : @"0",//角色游戏币余额
+@"key_partyName" : @"testparty",//公会名字，可选
+@"key_rolelevelCtime" : @"0",//创建角色的时间 时间戳（秒级别）
+@"key_rolelevelMtime" : @"0",//角色等级变化时间 时间戳
+@"key_currencyName":@"元宝"//货币名
 };
 [[HJAggregationSDK sharedJHAggregation]userInfoGame:userDict];
 
@@ -159,18 +171,18 @@ NSDateFormatter * dateFormatter = [[NSDateFormatter alloc] init];
 NSString * dateStr = [dateFormatter stringFromDate:date];
 
 NSDictionary *orderInfo = @{
-    @"key_cpOrderId": dateStr,      //游戏使用的订单号，必须唯一
-    @"key_serverId": @"1",//角色所在的serverid
-    @"key_serverName": @"剑域1服",//服务器名称
-    @"key_productId": @"2",//商品ID(内购代码)
-    @"key_productName": @"6",//商品名字
-    @"key_productdesc": @"6",//商品描述(可选)
-    @"key_ext": @"1_80127",//扩展参数，CP订单，默认传@"1"。
-    @"key_productPrice": @"1.00",//商品金融（单位元,要精确到小数点后两位数，比如1.00）
-    @"key_roleId": @"10000010",//角色ID
-    @"key_roleName": @"空若冰ads",//角色名字
-    @"key_currencyName" : @"元宝",//货币名
-    @"key_callbackurl": @"" //支付回调地址
+@"key_cpOrderId": dateStr,      //游戏使用的订单号，必须唯一
+@"key_serverId": @"1",//角色所在的serverid
+@"key_serverName": @"剑域1服",//服务器名称
+@"key_productId": @"2",//商品ID(内购代码)
+@"key_productName": @"6",//商品名字
+@"key_productdesc": @"6",//商品描述(可选)
+@"key_ext": @"1_80127",//扩展参数，CP订单，默认传@"1"。
+@"key_productPrice": @"1.00",//商品金融（单位元,要精确到小数点后两位数，比如1.00）
+@"key_roleId": @"10000010",//角色ID
+@"key_roleName": @"空若冰ads",//角色名字
+@"key_currencyName" : @"元宝",//货币名
+@"key_callbackurl": @"" //支付回调地址
 };
 [[HJAggregationSDK sharedJHAggregation]orderInfoGame:orderInfo];
 
@@ -195,7 +207,7 @@ NSDictionary *orderInfo = @{
 @param initDict 初始化的返回数据
 */
 - (void)inInitDict:(NSDictionary *)initDict{
-    NSLog(@"初始化成功%@",initDict);
+NSLog(@"初始化成功%@",initDict);
 }
 
 /**
@@ -203,7 +215,7 @@ NSDictionary *orderInfo = @{
 @param initDict 初始化失败的返回数据
 */
 - (void)InInitDictFailed:(NSDictionary *)initDict{
-    NSLog(@"初始化失败%@",initDict);
+NSLog(@"初始化失败%@",initDict);
 }
 
 /**
@@ -212,9 +224,9 @@ NSDictionary *orderInfo = @{
 */
 - (void) loginSuccendUserDict:(NSDictionary *)userDict{
 
-    NSLog(@"UserID:%@",userDict[@"UserId"]);//用户ID
+NSLog(@"UserID:%@",userDict[@"UserId"]);//用户ID
 
-    NSLog(@"Toekn:%@",userDict[@"Token"]);//用户Token
+NSLog(@"Toekn:%@",userDict[@"Token"]);//用户Token
 
 
 }
@@ -224,7 +236,7 @@ NSDictionary *orderInfo = @{
 @param userDict 登录失败的返回数据
 */
 - (void) loginFailedUserDict:(NSDictionary *)userDict{
-    NSLog(@" 登录失败的回调!");
+NSLog(@" 登录失败的回调!");
 }
 
 
@@ -233,7 +245,7 @@ NSDictionary *orderInfo = @{
 @param dict 登出的返回数据
 */
 - (void) loginOutSuceend:(NSDictionary *)dict{
-    NSLog(@"登出回调成功!");
+NSLog(@"登出回调成功!");
 
 }
 
@@ -243,7 +255,7 @@ NSDictionary *orderInfo = @{
 @param dict 登出失败的返回数据
 */
 - (void) loginOutFailed:(NSDictionary *)dict{
-    NSLog(@"登出失败回调!");
+NSLog(@"登出失败回调!");
 }
 
 /**
@@ -251,7 +263,7 @@ NSDictionary *orderInfo = @{
 @param infoDict 上报角色的返回数据
 */
 - (void) uploadSuccendInfoDict:(NSDictionary *)infoDict{
-    NSLog(@"上传角色回调成功!");
+NSLog(@"上传角色回调成功!");
 }
 
 /**
@@ -259,7 +271,7 @@ NSDictionary *orderInfo = @{
 @param infoDict 上报角色失败的返回数据
 */
 - (void) uploadFailedInfoDict:(NSDictionary *)infoDict{
-    NSLog(@"上报角色失败的回调!");
+NSLog(@"上报角色失败的回调!");
 }
 
 
