@@ -5,7 +5,7 @@
 	<key>ChannelDynamicHeadersName</key>
 	<string>ChannelBridge</string>
 	<key>ChannelBridgeClassName</key>
-	<string>HJXiaoQiBridge</string>
+	<string>HJAiSiBridge</string>
 	<key>iSTestEnvironment</key>
 	<false/>
 </dict>

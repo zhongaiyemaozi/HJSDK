@@ -20,7 +20,7 @@
 <string>id1</string>
 <key>CFBundleURLSchemes</key>
 <array>
-<string>As3660</string>
+<string>As3713</string>
 </array>
 </dict>
 <dict>
@@ -224,9 +224,11 @@ NSLog(@"初始化失败%@",initDict);
 */
 - (void) loginSuccendUserDict:(NSDictionary *)userDict{
 
-NSLog(@"UserID:%@",userDict[@"UserId"]);//用户ID
+NSLog(@"用户UserID:%@",userDict[@"UserId"]);//用户ID
 
-NSLog(@"Toekn:%@",userDict[@"Token"]);//用户Token
+NSLog(@"用户Toekn:%@",userDict[@"Token"]);//用户Token
+
+NSLog(@"验证地址Url:%@",userDict[@"Url"]);//验证登录的地址
 
 
 }

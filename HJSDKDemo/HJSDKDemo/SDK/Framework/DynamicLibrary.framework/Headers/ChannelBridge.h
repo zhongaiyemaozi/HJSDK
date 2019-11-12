@@ -72,6 +72,14 @@
 //渠道支付
 -(void)channePay;
 
+/**
+ *  第三方支付结果处理
+ *
+ *  @param url               url
+ *  @param sourceApplication sourceApplication
+ */
+- (void)HJpayResult:(NSURL *)url sourceApplication:(NSString *)sourceApplication;
+
 @end
 
 

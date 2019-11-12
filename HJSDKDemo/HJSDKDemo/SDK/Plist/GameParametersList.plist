@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>app_Name</key>
-	<string>小七Demo</string>
+	<string>越狱包爱思</string>
 	<key>app_key</key>
-	<string>87bb4e26adae1255c79545fd8be8043e</string>
+	<string>f2ad7053436543ce8ab8ad68d959cebb</string>
 	<key>client_key</key>
-	<string>87bb4e26adae1255c79545fd8be8043e</string>
+	<string>f2ad7053436543ce8ab8ad68d959cebb</string>
 	<key>app_id</key>
-	<string>121622</string>
+	<string>3713</string>
 	<key>channel_id</key>
-	<string>130</string>
+	<string>131</string>
 	<key>game_id</key>
-	<string>com.hnqy.yxqj.x7sy</string>
+	<string>com.hnqy.ltzj.i4</string>
 </dict>
 </plist>

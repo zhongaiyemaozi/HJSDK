@@ -34,18 +34,18 @@
 - (IBAction)UserUpdateTarget:(UIButton *)sender {
     
     NSDictionary *userDict = @{
-                               @"key_dataType" : @"0",
-                               @"key_serverId" : @"0",
-                               @"key_serverName" : @"剑域1服00",
-                               @"key_roleId" : @"10000010",
-                               @"key_roleName" : @"空若冰qq",
-                               @"key_roleLevel" : @"1",
-                               @"key_roleVip" : @"1",
-                               @"key_roleBalence" : @"0",
-                               @"key_partyName" : @"testparty",
-                               @"key_rolelevelCtime" : @"0",
-                               @"key_rolelevelMtime" : @"0",
-                               @"key_currencyName":@"元宝"
+                               @"key_dataType" : @"0",//数据类型，1为进入游戏，2为创建角色，3为角色升级，4为退出，5为充值
+                               @"key_serverId" : @"0",//角色所在的serverid
+                               @"key_serverName" : @"剑域1服00",//服务器名
+                               @"key_roleId" : @"10000010",//角色id
+                               @"key_roleName" : @"空若冰qq",//角色名字
+                               @"key_roleLevel" : @"1",//角色等级
+                               @"key_roleVip" : @"1",//角色VIP等级
+                               @"key_roleBalence" : @"0",//角色游戏币余额
+                               @"key_partyName" : @"testparty",//公会名字，可选
+                               @"key_rolelevelCtime" : @"0",//创建角色的时间 时间戳（秒级别）
+                               @"key_rolelevelMtime" : @"0",//角色等级变化时间 时间戳
+                               @"key_currencyName":@"元宝"//货币名
                                };
     [[HJAggregationSDK sharedJHAggregation]userInfoGame:userDict];
     
@@ -60,18 +60,18 @@
     NSString * dateStr = [dateFormatter stringFromDate:date];
     
     NSDictionary *orderInfo = @{
-                                @"key_cpOrderId": dateStr,
-                                @"key_serverId": @"1",
-                                @"key_serverName": @"剑域1服",
-                                @"key_productId": @"2",
-                                @"key_productName": @"6",
-                                @"key_productdesc": @"6",
-                                @"key_ext": @"1_80127",
-                                @"key_productPrice": @"1.00",
-                                @"key_roleId": @"10000010",
-                                @"key_roleName": @"空若冰ads",
-                                @"key_currencyName" : @"元宝",
-                                @"key_callbackurl": @"" //回调url这个值根据需要填写
+                                @"key_cpOrderId": dateStr,      //游戏使用的订单号，必须唯一
+                                @"key_serverId": @"1",//角色所在的serverid
+                                @"key_serverName": @"剑域1服",//服务器名称
+                                @"key_productId": @"2",//商品ID(内购代码)
+                                @"key_productName": @"6",//商品名字
+                                @"key_productdesc": @"6",//商品描述(可选)
+                                @"key_ext": @"1_80127",//扩展参数，CP订单，默认传@"1"。
+                                @"key_productPrice": @"1.00",//商品金融（单位元,要精确到小数点后两位数，比如1.00）
+                                @"key_roleId": @"10000010",//角色ID
+                                @"key_roleName": @"空若冰ads",//角色名字
+                                @"key_currencyName" : @"元宝",//货币名
+                                @"key_callbackurl": @"" //支付回调地址
                                 };
     [[HJAggregationSDK sharedJHAggregation]orderInfoGame:orderInfo];
     
@@ -108,11 +108,11 @@
  */
 - (void) loginSuccendUserDict:(NSDictionary *)userDict{
     
-    NSLog(@"UserID:%@",userDict[@"UserId"]);//用户ID
+    NSLog(@"用户UserID:%@",userDict[@"UserId"]);//用户ID
     
-    NSLog(@"Toekn:%@",userDict[@"Token"]);//用户Token
+    NSLog(@"用户Toekn:%@",userDict[@"Token"]);//用户Token
     
-    
+    NSLog(@"验证地址Url:%@",userDict[@"Url"]);//验证登录的地址
     
 }
 
