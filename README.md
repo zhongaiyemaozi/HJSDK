@@ -7,6 +7,9 @@
 ## 项目配置
 
 > info.plist文件配置，直接拷贝以下key/value值到项目中info.plist文件内
+
+![截图](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/InfoPlist.png)
+
 ```
 <key>CFBundleURLTypes</key>
 <array>
