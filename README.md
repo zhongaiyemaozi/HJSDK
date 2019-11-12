@@ -79,12 +79,17 @@
 
 > Target - Build Phases - Embed Frameworks 选项中引用DynamicLibrary.framework，SMSDK.framework，HJAggregationSDK.framework三个动态库（或是在Target - General - Embedded Binaries中引入上面三个动态库）
 
+![Embed](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/EmbedFrameworks.png)
+
+
 > 设置Bitcode为No
 
 > Target - Build Settings - Enable Bitcode 选项设置为NO
-
+![Bitcode](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/Bitcode.png)
 
 ## SDK参数处理
+
+### GamePlbulic.plist文件配置
 > 只需要更改Plist文件夹中GamePlbulic.plist中对应的数据
 
 > App_Name：App名称
@@ -93,6 +98,10 @@
 
 >App_Channelld：未提供不更改（默认131），提供了更改成对应的数据
 
+![GamePlbulic](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/GamePlbulic.png)
+
+### GameParametersList.plist文件配置
+![GamePlbulic](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/GameChannePlist.png)
 
 ## 代码处理（只需要对接HJAggregationSDK.framework的对外接口）
 
