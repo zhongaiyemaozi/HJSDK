@@ -16,3 +16,12 @@
 ## SDK等文件
 
 [SDK文件](https://github.com/zhongaiyemaozi/HJSDK/tree/master/HJSDKDemo/HJSDKDemo/SDK)
+
+
+
+## 备注
+> 参数获取和接入等问题请找对应的运营同学
+
+> SDK只支持真机，不支持模拟器
+
+> SDK支持iOS9.0及以上
