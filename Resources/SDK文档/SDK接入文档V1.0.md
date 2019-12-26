@@ -6,6 +6,10 @@
 
 ## 项目配置
 
+> 横竖屏配置，由于爱思渠道需要配置Portrait
+
+>Target - Deployment Info - Device Orientationq中横竖屏全部勾选（Portrait,Upside Down,Landscaoe Left,Landscaoe Right）
+
 > info.plist文件配置，直接拷贝以下key/value值到项目中info.plist文件内
 
 ![截图](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/InfoPlist.png)
