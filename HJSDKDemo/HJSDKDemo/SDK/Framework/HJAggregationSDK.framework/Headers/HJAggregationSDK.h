@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+
 #pragma mark - 代理
 @protocol JHAggregationInitDelegate <NSObject>
 
@@ -123,7 +126,7 @@
  @"key_productId"    : @"com.ingcle.demo01",         //商品ID(内购代码)
  @"key_productName"  : @"商品名字",                   //商品名字
  @"key_productdesc"  : @"goodsdes",                  //商品描述(可选)
- @"key_ext"          : @"testattach",                //扩展参数，CP订单，默认传@"1"。
+ @"key_ext"          : @"testattach",                //扩展参数，没有默认传@"1"。
  @"key_productPrice" : @"0.1",                       //商品金融（单位元）
  @"key_roleId"       : @"testrole",                  //角色ID
  @"key_roleName"     : @"biKing",                     //角色名字
@@ -161,5 +164,13 @@
  登出
  */
 - (void)loginOutGame;
+
+
+#pragma mark - 周期函数-
+
+
+
+
+
 
 @end

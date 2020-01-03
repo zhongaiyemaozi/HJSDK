@@ -56,6 +56,9 @@
 <string>alipay</string>
 <string>weixin</string>
 <string>wechat</string>
+<string>weixinULAPI</string>  
+<string>mqqwallet</string> 
+<string>rnotes</string>
 </array>
 <key>LSRequiresIPhoneOS</key>
 <true/>
