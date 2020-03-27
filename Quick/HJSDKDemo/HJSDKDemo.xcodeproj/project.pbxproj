@@ -19,15 +19,6 @@
 		28E8CA05237A52CD000D5372 /* GameParametersList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9F5237A52CD000D5372 /* GameParametersList.plist */; };
 		28E8CA06237A52CD000D5372 /* GamePlbulic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9F6237A52CD000D5372 /* GamePlbulic.plist */; };
 		28E8CA07237A52CD000D5372 /* ClassNameList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9F7237A52CD000D5372 /* ClassNameList.plist */; };
-		28E8CA0A237A52CD000D5372 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9FC237A52CD000D5372 /* AlipaySDK.bundle */; };
-		28E8CA0B237A52CD000D5372 /* GPImagePickerControllerResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9FD237A52CD000D5372 /* GPImagePickerControllerResource.bundle */; };
-		28E8CA0C237A52CD000D5372 /* walletResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9FE237A52CD000D5372 /* walletResources.bundle */; };
-		28E8CA0D237A52CD000D5372 /* SMSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9FF237A52CD000D5372 /* SMSDK.bundle */; };
-		28E8CA0E237A52CD000D5372 /* GPGameResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA00237A52CD000D5372 /* GPGameResource.bundle */; };
-		28E8CA0F237A52CD000D5372 /* ipaynow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA01237A52CD000D5372 /* ipaynow.bundle */; };
-		28E8CA10237A52CD000D5372 /* QYResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA02237A52CD000D5372 /* QYResource.bundle */; };
-		28E8CA11237A52CD000D5372 /* AsImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA03237A52CD000D5372 /* AsImage.bundle */; };
-		28E8CA12237A52CD000D5372 /* Language.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA04237A52CD000D5372 /* Language.bundle */; };
 		28E8CA14237A531A000D5372 /* DynamicLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */; };
 		28E8CA15237A531A000D5372 /* DynamicLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28E8CA16237A531A000D5372 /* SMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9FA237A52CD000D5372 /* SMSDK.framework */; };
@@ -72,15 +63,6 @@
 		28E8C9F7237A52CD000D5372 /* ClassNameList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassNameList.plist; sourceTree = "<group>"; };
 		28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DynamicLibrary.framework; sourceTree = "<group>"; };
 		28E8C9FA237A52CD000D5372 /* SMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMSDK.framework; sourceTree = "<group>"; };
-		28E8C9FC237A52CD000D5372 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
-		28E8C9FD237A52CD000D5372 /* GPImagePickerControllerResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GPImagePickerControllerResource.bundle; sourceTree = "<group>"; };
-		28E8C9FE237A52CD000D5372 /* walletResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = walletResources.bundle; sourceTree = "<group>"; };
-		28E8C9FF237A52CD000D5372 /* SMSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMSDK.bundle; sourceTree = "<group>"; };
-		28E8CA00237A52CD000D5372 /* GPGameResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GPGameResource.bundle; sourceTree = "<group>"; };
-		28E8CA01237A52CD000D5372 /* ipaynow.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ipaynow.bundle; sourceTree = "<group>"; };
-		28E8CA02237A52CD000D5372 /* QYResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QYResource.bundle; sourceTree = "<group>"; };
-		28E8CA03237A52CD000D5372 /* AsImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AsImage.bundle; sourceTree = "<group>"; };
-		28E8CA04237A52CD000D5372 /* Language.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Language.bundle; sourceTree = "<group>"; };
 		28E8CA13237A530D000D5372 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HJAggregationSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,7 +122,6 @@
 			children = (
 				28E8C9F4237A52CD000D5372 /* Plist */,
 				28E8C9F8237A52CD000D5372 /* Framework */,
-				28E8C9FB237A52CD000D5372 /* Bundle */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -167,22 +148,6 @@
 				28E8C9FA237A52CD000D5372 /* SMSDK.framework */,
 			);
 			path = Framework;
-			sourceTree = "<group>";
-		};
-		28E8C9FB237A52CD000D5372 /* Bundle */ = {
-			isa = PBXGroup;
-			children = (
-				28E8C9FC237A52CD000D5372 /* AlipaySDK.bundle */,
-				28E8C9FD237A52CD000D5372 /* GPImagePickerControllerResource.bundle */,
-				28E8C9FE237A52CD000D5372 /* walletResources.bundle */,
-				28E8C9FF237A52CD000D5372 /* SMSDK.bundle */,
-				28E8CA00237A52CD000D5372 /* GPGameResource.bundle */,
-				28E8CA01237A52CD000D5372 /* ipaynow.bundle */,
-				28E8CA02237A52CD000D5372 /* QYResource.bundle */,
-				28E8CA03237A52CD000D5372 /* AsImage.bundle */,
-				28E8CA04237A52CD000D5372 /* Language.bundle */,
-			);
-			path = Bundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,18 +210,9 @@
 			files = (
 				28E8CA07237A52CD000D5372 /* ClassNameList.plist in Resources */,
 				28E8CA05237A52CD000D5372 /* GameParametersList.plist in Resources */,
-				28E8CA0B237A52CD000D5372 /* GPImagePickerControllerResource.bundle in Resources */,
-				28E8CA10237A52CD000D5372 /* QYResource.bundle in Resources */,
-				28E8CA0A237A52CD000D5372 /* AlipaySDK.bundle in Resources */,
-				28E8CA12237A52CD000D5372 /* Language.bundle in Resources */,
-				28E8CA11237A52CD000D5372 /* AsImage.bundle in Resources */,
-				28E8CA0C237A52CD000D5372 /* walletResources.bundle in Resources */,
-				28E8CA0F237A52CD000D5372 /* ipaynow.bundle in Resources */,
-				28E8CA0E237A52CD000D5372 /* GPGameResource.bundle in Resources */,
 				28E8C9EA237A524D000D5372 /* LaunchScreen.storyboard in Resources */,
 				28E8CA06237A52CD000D5372 /* GamePlbulic.plist in Resources */,
 				28E8C9E7237A524D000D5372 /* Assets.xcassets in Resources */,
-				28E8CA0D237A52CD000D5372 /* SMSDK.bundle in Resources */,
 				28E8C9E5237A524A000D5372 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,7 +388,7 @@
 					"$(PROJECT_DIR)/HJSDKDemo/SDK/Framework",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gjxy.x7sy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.likesun.mszj.i4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,7 +417,7 @@
 					"$(PROJECT_DIR)/HJSDKDemo/SDK/Framework",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gjxy.x7sy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.likesun.mszj.i4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

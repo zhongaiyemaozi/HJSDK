@@ -2,7 +2,7 @@
 
 ## SDK介绍
 
-> SDK内涵三个文件，直接拷贝所有的文件到项目中（包含Plist配置文件，Framework动态库，Bundle资源文件）
+> SDK内涵l二个文件，直接拷贝所有的文件到项目中（包含Plist配置文件，Framework动态库）
 
 ## 项目配置
 
