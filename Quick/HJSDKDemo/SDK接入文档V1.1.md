@@ -12,8 +12,6 @@
 
 > info.plist文件配置，直接拷贝以下key/value值到项目中info.plist文件内
 
-![截图](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/InfoPlist.png)
-
 ```
 <key>CFBundleURLTypes</key>
 <array>
@@ -86,8 +84,6 @@
 
 > Target - Build Phases - Embed Frameworks 选项中引用DynamicLibrary.framework，SMSDK.framework，HJAggregationSDK.framework三个动态库（或是在Target - General - Embedded Binaries中引入上面三个动态库）
 
-![Embed](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/EmbedFrameworks.png)
-
 
 > SDK静态库设置（适配Quick打包工具使用，只需要接Quick聚合才需要配置）
 >直接把quick的SDK拖入项目中即可，SDK含两个SMPCQuickSDK.framework和libSMPCQuickChannel.a静态库拖入项目中使用
@@ -96,8 +92,7 @@
 > 设置Bitcode为No
 
 > Target - Build Settings - Enable Bitcode 选项设置为NO
->Target - Other Linek - 设置ObjC
-![Bitcode](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/Bitcode.png)
+>Target - Other Link - 设置ObjC
 
 ## SDK参数处理
 
@@ -135,8 +130,14 @@
 
 ```
 
-//初始化聚合接口
-[[HJAggregationSDK sharedJHAggregation] initAggregationapplication:application didFinishLaunchingWithOptions:launchOptions];
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+
+    //初始化聚合接口
+    [[HJAggregationSDK sharedJHAggregation] initAggregationapplication:application didFinishLaunchingWithOptions:launchOptions];
+
+    return YES;
+}
 
 ```
 
