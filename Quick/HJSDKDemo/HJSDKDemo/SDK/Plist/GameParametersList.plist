@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app_Name</key>
+	<string>quick</string>
+	<key>app_key</key>
+	<string>09633196</string>
+	<key>client_key</key>
+	<string>50840817638746911281319234382938</string>
+	<key>app_id</key>
+	<string>3660</string>
+	<key>channel_id</key>
+	<string>1103</string>
+	<key>game_id</key>
+	<string>257</string>
+</dict>
+</plist>

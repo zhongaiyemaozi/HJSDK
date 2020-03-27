@@ -1,0 +1,6 @@
+framework module SMSDK {
+  umbrella header "SMSDK.h"
+
+  export *
+  module * { export * }
+}

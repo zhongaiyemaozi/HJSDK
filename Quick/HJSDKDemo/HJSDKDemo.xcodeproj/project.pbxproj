@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28B5DB67242D97C2008D7E98 /* SMPCQuickSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B5DB64242D97C2008D7E98 /* SMPCQuickSDK.framework */; };
+		28B5DB68242D97C2008D7E98 /* ChannelBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B5DB65242D97C2008D7E98 /* ChannelBridge.m */; };
+		28B5DB69242D97C2008D7E98 /* libSMPCQuickChannel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B5DB66242D97C2008D7E98 /* libSMPCQuickChannel.a */; };
+		28E8C9DF237A524A000D5372 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E8C9DE237A524A000D5372 /* AppDelegate.m */; };
+		28E8C9E2237A524A000D5372 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E8C9E1237A524A000D5372 /* ViewController.m */; };
+		28E8C9E5237A524A000D5372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9E3237A524A000D5372 /* Main.storyboard */; };
+		28E8C9E7237A524D000D5372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9E6237A524D000D5372 /* Assets.xcassets */; };
+		28E8C9EA237A524D000D5372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9E8237A524D000D5372 /* LaunchScreen.storyboard */; };
+		28E8C9ED237A524D000D5372 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E8C9EC237A524D000D5372 /* main.m */; };
+		28E8CA05237A52CD000D5372 /* GameParametersList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9F5237A52CD000D5372 /* GameParametersList.plist */; };
+		28E8CA06237A52CD000D5372 /* GamePlbulic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9F6237A52CD000D5372 /* GamePlbulic.plist */; };
+		28E8CA07237A52CD000D5372 /* ClassNameList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9F7237A52CD000D5372 /* ClassNameList.plist */; };
+		28E8CA0A237A52CD000D5372 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9FC237A52CD000D5372 /* AlipaySDK.bundle */; };
+		28E8CA0B237A52CD000D5372 /* GPImagePickerControllerResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9FD237A52CD000D5372 /* GPImagePickerControllerResource.bundle */; };
+		28E8CA0C237A52CD000D5372 /* walletResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9FE237A52CD000D5372 /* walletResources.bundle */; };
+		28E8CA0D237A52CD000D5372 /* SMSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9FF237A52CD000D5372 /* SMSDK.bundle */; };
+		28E8CA0E237A52CD000D5372 /* GPGameResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA00237A52CD000D5372 /* GPGameResource.bundle */; };
+		28E8CA0F237A52CD000D5372 /* ipaynow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA01237A52CD000D5372 /* ipaynow.bundle */; };
+		28E8CA10237A52CD000D5372 /* QYResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA02237A52CD000D5372 /* QYResource.bundle */; };
+		28E8CA11237A52CD000D5372 /* AsImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA03237A52CD000D5372 /* AsImage.bundle */; };
+		28E8CA12237A52CD000D5372 /* Language.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA04237A52CD000D5372 /* Language.bundle */; };
+		28E8CA14237A531A000D5372 /* DynamicLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */; };
+		28E8CA15237A531A000D5372 /* DynamicLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28E8CA16237A531A000D5372 /* SMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9FA237A52CD000D5372 /* SMSDK.framework */; };
+		28E8CA17237A531A000D5372 /* SMSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9FA237A52CD000D5372 /* SMSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28E8CA1B237A53AA000D5372 /* HJAggregationSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */; };
+		28E8CA1C237A53AA000D5372 /* HJAggregationSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28E8CA18237A531A000D5372 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				28E8CA15237A531A000D5372 /* DynamicLibrary.framework in Embed Frameworks */,
+				28E8CA1C237A53AA000D5372 /* HJAggregationSDK.framework in Embed Frameworks */,
+				28E8CA17237A531A000D5372 /* SMSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28B5DB63242D97C2008D7E98 /* ChannelBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelBridge.h; sourceTree = "<group>"; };
+		28B5DB64242D97C2008D7E98 /* SMPCQuickSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMPCQuickSDK.framework; sourceTree = "<group>"; };
+		28B5DB65242D97C2008D7E98 /* ChannelBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelBridge.m; sourceTree = "<group>"; };
+		28B5DB66242D97C2008D7E98 /* libSMPCQuickChannel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSMPCQuickChannel.a; sourceTree = "<group>"; };
+		28E8C9DA237A524A000D5372 /* HJSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E8C9DD237A524A000D5372 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28E8C9DE237A524A000D5372 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28E8C9E0237A524A000D5372 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28E8C9E1237A524A000D5372 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28E8C9E4237A524A000D5372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28E8C9E6237A524D000D5372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28E8C9E9237A524D000D5372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28E8C9EB237A524D000D5372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E8C9EC237A524D000D5372 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28E8C9F5237A52CD000D5372 /* GameParametersList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameParametersList.plist; sourceTree = "<group>"; };
+		28E8C9F6237A52CD000D5372 /* GamePlbulic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GamePlbulic.plist; sourceTree = "<group>"; };
+		28E8C9F7237A52CD000D5372 /* ClassNameList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassNameList.plist; sourceTree = "<group>"; };
+		28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DynamicLibrary.framework; sourceTree = "<group>"; };
+		28E8C9FA237A52CD000D5372 /* SMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMSDK.framework; sourceTree = "<group>"; };
+		28E8C9FC237A52CD000D5372 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		28E8C9FD237A52CD000D5372 /* GPImagePickerControllerResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GPImagePickerControllerResource.bundle; sourceTree = "<group>"; };
+		28E8C9FE237A52CD000D5372 /* walletResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = walletResources.bundle; sourceTree = "<group>"; };
+		28E8C9FF237A52CD000D5372 /* SMSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMSDK.bundle; sourceTree = "<group>"; };
+		28E8CA00237A52CD000D5372 /* GPGameResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GPGameResource.bundle; sourceTree = "<group>"; };
+		28E8CA01237A52CD000D5372 /* ipaynow.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ipaynow.bundle; sourceTree = "<group>"; };
+		28E8CA02237A52CD000D5372 /* QYResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QYResource.bundle; sourceTree = "<group>"; };
+		28E8CA03237A52CD000D5372 /* AsImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AsImage.bundle; sourceTree = "<group>"; };
+		28E8CA04237A52CD000D5372 /* Language.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Language.bundle; sourceTree = "<group>"; };
+		28E8CA13237A530D000D5372 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HJAggregationSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28E8C9D7237A524A000D5372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B5DB67242D97C2008D7E98 /* SMPCQuickSDK.framework in Frameworks */,
+				28E8CA14237A531A000D5372 /* DynamicLibrary.framework in Frameworks */,
+				28E8CA1B237A53AA000D5372 /* HJAggregationSDK.framework in Frameworks */,
+				28B5DB69242D97C2008D7E98 /* libSMPCQuickChannel.a in Frameworks */,
+				28E8CA16237A531A000D5372 /* SMSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28E8C9D1237A524A000D5372 = {
+			isa = PBXGroup;
+			children = (
+				28E8C9DC237A524A000D5372 /* HJSDKDemo */,
+				28E8C9DB237A524A000D5372 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28E8C9DB237A524A000D5372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28E8C9DA237A524A000D5372 /* HJSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28E8C9DC237A524A000D5372 /* HJSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				28E8C9F3237A52CD000D5372 /* SDK */,
+				28E8C9DD237A524A000D5372 /* AppDelegate.h */,
+				28E8C9DE237A524A000D5372 /* AppDelegate.m */,
+				28E8C9E0237A524A000D5372 /* ViewController.h */,
+				28E8C9E1237A524A000D5372 /* ViewController.m */,
+				28E8C9E3237A524A000D5372 /* Main.storyboard */,
+				28E8CA13237A530D000D5372 /* PrefixHeader.pch */,
+				28E8C9E6237A524D000D5372 /* Assets.xcassets */,
+				28E8C9E8237A524D000D5372 /* LaunchScreen.storyboard */,
+				28E8C9EB237A524D000D5372 /* Info.plist */,
+				28E8C9EC237A524D000D5372 /* main.m */,
+			);
+			path = HJSDKDemo;
+			sourceTree = "<group>";
+		};
+		28E8C9F3237A52CD000D5372 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				28E8C9F4237A52CD000D5372 /* Plist */,
+				28E8C9F8237A52CD000D5372 /* Framework */,
+				28E8C9FB237A52CD000D5372 /* Bundle */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		28E8C9F4237A52CD000D5372 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				28E8C9F5237A52CD000D5372 /* GameParametersList.plist */,
+				28E8C9F6237A52CD000D5372 /* GamePlbulic.plist */,
+				28E8C9F7237A52CD000D5372 /* ClassNameList.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		28E8C9F8237A52CD000D5372 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				28B5DB63242D97C2008D7E98 /* ChannelBridge.h */,
+				28B5DB65242D97C2008D7E98 /* ChannelBridge.m */,
+				28B5DB66242D97C2008D7E98 /* libSMPCQuickChannel.a */,
+				28B5DB64242D97C2008D7E98 /* SMPCQuickSDK.framework */,
+				28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */,
+				28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */,
+				28E8C9FA237A52CD000D5372 /* SMSDK.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		28E8C9FB237A52CD000D5372 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				28E8C9FC237A52CD000D5372 /* AlipaySDK.bundle */,
+				28E8C9FD237A52CD000D5372 /* GPImagePickerControllerResource.bundle */,
+				28E8C9FE237A52CD000D5372 /* walletResources.bundle */,
+				28E8C9FF237A52CD000D5372 /* SMSDK.bundle */,
+				28E8CA00237A52CD000D5372 /* GPGameResource.bundle */,
+				28E8CA01237A52CD000D5372 /* ipaynow.bundle */,
+				28E8CA02237A52CD000D5372 /* QYResource.bundle */,
+				28E8CA03237A52CD000D5372 /* AsImage.bundle */,
+				28E8CA04237A52CD000D5372 /* Language.bundle */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28E8C9D9237A524A000D5372 /* HJSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E8C9F0237A524D000D5372 /* Build configuration list for PBXNativeTarget "HJSDKDemo" */;
+			buildPhases = (
+				28E8C9D6237A524A000D5372 /* Sources */,
+				28E8C9D7237A524A000D5372 /* Frameworks */,
+				28E8C9D8237A524A000D5372 /* Resources */,
+				28E8CA18237A531A000D5372 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJSDKDemo;
+			productName = HJSDKDemo;
+			productReference = 28E8C9DA237A524A000D5372 /* HJSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28E8C9D2237A524A000D5372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CL;
+				TargetAttributes = {
+					28E8C9D9237A524A000D5372 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 28E8C9D5237A524A000D5372 /* Build configuration list for PBXProject "HJSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28E8C9D1237A524A000D5372;
+			productRefGroup = 28E8C9DB237A524A000D5372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28E8C9D9237A524A000D5372 /* HJSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28E8C9D8237A524A000D5372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E8CA07237A52CD000D5372 /* ClassNameList.plist in Resources */,
+				28E8CA05237A52CD000D5372 /* GameParametersList.plist in Resources */,
+				28E8CA0B237A52CD000D5372 /* GPImagePickerControllerResource.bundle in Resources */,
+				28E8CA10237A52CD000D5372 /* QYResource.bundle in Resources */,
+				28E8CA0A237A52CD000D5372 /* AlipaySDK.bundle in Resources */,
+				28E8CA12237A52CD000D5372 /* Language.bundle in Resources */,
+				28E8CA11237A52CD000D5372 /* AsImage.bundle in Resources */,
+				28E8CA0C237A52CD000D5372 /* walletResources.bundle in Resources */,
+				28E8CA0F237A52CD000D5372 /* ipaynow.bundle in Resources */,
+				28E8CA0E237A52CD000D5372 /* GPGameResource.bundle in Resources */,
+				28E8C9EA237A524D000D5372 /* LaunchScreen.storyboard in Resources */,
+				28E8CA06237A52CD000D5372 /* GamePlbulic.plist in Resources */,
+				28E8C9E7237A524D000D5372 /* Assets.xcassets in Resources */,
+				28E8CA0D237A52CD000D5372 /* SMSDK.bundle in Resources */,
+				28E8C9E5237A524A000D5372 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28E8C9D6237A524A000D5372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B5DB68242D97C2008D7E98 /* ChannelBridge.m in Sources */,
+				28E8C9E2237A524A000D5372 /* ViewController.m in Sources */,
+				28E8C9ED237A524D000D5372 /* main.m in Sources */,
+				28E8C9DF237A524A000D5372 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28E8C9E3237A524A000D5372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E8C9E4237A524A000D5372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28E8C9E8237A524D000D5372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E8C9E9237A524D000D5372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28E8C9EE237A524D000D5372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28E8C9EF237A524D000D5372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28E8C9F1237A524D000D5372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK27WYFG27;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HJSDKDemo/SDK/Framework",
+				);
+				GCC_PREFIX_HEADER = $SRCROOT/$PRODUCT_NAME/PrefixHeader.pch;
+				INFOPLIST_FILE = HJSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HJSDKDemo/SDK/Framework",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gjxy.x7sy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28E8C9F2237A524D000D5372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK27WYFG27;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HJSDKDemo/SDK/Framework",
+				);
+				GCC_PREFIX_HEADER = $SRCROOT/$PRODUCT_NAME/PrefixHeader.pch;
+				INFOPLIST_FILE = HJSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HJSDKDemo/SDK/Framework",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gjxy.x7sy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28E8C9D5237A524A000D5372 /* Build configuration list for PBXProject "HJSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E8C9EE237A524D000D5372 /* Debug */,
+				28E8C9EF237A524D000D5372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E8C9F0237A524D000D5372 /* Build configuration list for PBXNativeTarget "HJSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E8C9F1237A524D000D5372 /* Debug */,
+				28E8C9F2237A524D000D5372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28E8C9D2237A524A000D5372 /* Project object */;
+}
