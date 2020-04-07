@@ -131,8 +131,14 @@
 
 ```
 
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+
 //初始化聚合接口
 [[HJAggregationSDK sharedJHAggregation] initAggregationapplication:application didFinishLaunchingWithOptions:launchOptions];
+
+return YES;
+}
 
 ```
 

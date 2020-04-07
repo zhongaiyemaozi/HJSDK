@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284265A22433137300DB7A0C /* HJAggregationSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */; };
+		284265A32433137300DB7A0C /* HJAggregationSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		284265A42433137300DB7A0C /* DynamicLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */; };
+		284265A52433137300DB7A0C /* DynamicLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		284265A62433137300DB7A0C /* SMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9FA237A52CD000D5372 /* SMSDK.framework */; };
+		284265A72433137300DB7A0C /* SMSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9FA237A52CD000D5372 /* SMSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28E8C9DF237A524A000D5372 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E8C9DE237A524A000D5372 /* AppDelegate.m */; };
 		28E8C9E2237A524A000D5372 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E8C9E1237A524A000D5372 /* ViewController.m */; };
 		28E8C9E5237A524A000D5372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9E3237A524A000D5372 /* Main.storyboard */; };
@@ -25,24 +31,18 @@
 		28E8CA10237A52CD000D5372 /* QYResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA02237A52CD000D5372 /* QYResource.bundle */; };
 		28E8CA11237A52CD000D5372 /* AsImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA03237A52CD000D5372 /* AsImage.bundle */; };
 		28E8CA12237A52CD000D5372 /* Language.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28E8CA04237A52CD000D5372 /* Language.bundle */; };
-		28E8CA14237A531A000D5372 /* DynamicLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */; };
-		28E8CA15237A531A000D5372 /* DynamicLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		28E8CA16237A531A000D5372 /* SMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9FA237A52CD000D5372 /* SMSDK.framework */; };
-		28E8CA17237A531A000D5372 /* SMSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9FA237A52CD000D5372 /* SMSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		28E8CA1B237A53AA000D5372 /* HJAggregationSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */; };
-		28E8CA1C237A53AA000D5372 /* HJAggregationSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		28E8CA18237A531A000D5372 /* Embed Frameworks */ = {
+		284265A82433137400DB7A0C /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				28E8CA15237A531A000D5372 /* DynamicLibrary.framework in Embed Frameworks */,
-				28E8CA1C237A53AA000D5372 /* HJAggregationSDK.framework in Embed Frameworks */,
-				28E8CA17237A531A000D5372 /* SMSDK.framework in Embed Frameworks */,
+				284265A52433137300DB7A0C /* DynamicLibrary.framework in Embed Frameworks */,
+				284265A72433137300DB7A0C /* SMSDK.framework in Embed Frameworks */,
+				284265A32433137300DB7A0C /* HJAggregationSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,9 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E8CA14237A531A000D5372 /* DynamicLibrary.framework in Frameworks */,
-				28E8CA1B237A53AA000D5372 /* HJAggregationSDK.framework in Frameworks */,
-				28E8CA16237A531A000D5372 /* SMSDK.framework in Frameworks */,
+				284265A42433137300DB7A0C /* DynamicLibrary.framework in Frameworks */,
+				284265A62433137300DB7A0C /* SMSDK.framework in Frameworks */,
+				284265A22433137300DB7A0C /* HJAggregationSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +182,7 @@
 				28E8C9D6237A524A000D5372 /* Sources */,
 				28E8C9D7237A524A000D5372 /* Frameworks */,
 				28E8C9D8237A524A000D5372 /* Resources */,
-				28E8CA18237A531A000D5372 /* Embed Frameworks */,
+				284265A82433137400DB7A0C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -400,7 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8B66A2TZ4S;
+				DEVELOPMENT_TEAM = YK27WYFG27;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -413,6 +413,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hnqy.ltzj.i4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,7 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8B66A2TZ4S;
+				DEVELOPMENT_TEAM = YK27WYFG27;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -437,6 +438,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hnqy.ltzj.i4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
