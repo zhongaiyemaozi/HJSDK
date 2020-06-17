@@ -19,10 +19,6 @@
 		28E8CA05237A52CD000D5372 /* GameParametersList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9F5237A52CD000D5372 /* GameParametersList.plist */; };
 		28E8CA06237A52CD000D5372 /* GamePlbulic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9F6237A52CD000D5372 /* GamePlbulic.plist */; };
 		28E8CA07237A52CD000D5372 /* ClassNameList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9F7237A52CD000D5372 /* ClassNameList.plist */; };
-		28E8CA14237A531A000D5372 /* DynamicLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */; };
-		28E8CA15237A531A000D5372 /* DynamicLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		28E8CA16237A531A000D5372 /* SMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9FA237A52CD000D5372 /* SMSDK.framework */; };
-		28E8CA17237A531A000D5372 /* SMSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9FA237A52CD000D5372 /* SMSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28E8CA1B237A53AA000D5372 /* HJAggregationSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */; };
 		28E8CA1C237A53AA000D5372 /* HJAggregationSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -34,9 +30,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				28E8CA15237A531A000D5372 /* DynamicLibrary.framework in Embed Frameworks */,
 				28E8CA1C237A53AA000D5372 /* HJAggregationSDK.framework in Embed Frameworks */,
-				28E8CA17237A531A000D5372 /* SMSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,8 +55,6 @@
 		28E8C9F5237A52CD000D5372 /* GameParametersList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameParametersList.plist; sourceTree = "<group>"; };
 		28E8C9F6237A52CD000D5372 /* GamePlbulic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GamePlbulic.plist; sourceTree = "<group>"; };
 		28E8C9F7237A52CD000D5372 /* ClassNameList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassNameList.plist; sourceTree = "<group>"; };
-		28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DynamicLibrary.framework; sourceTree = "<group>"; };
-		28E8C9FA237A52CD000D5372 /* SMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMSDK.framework; sourceTree = "<group>"; };
 		28E8CA13237A530D000D5372 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HJAggregationSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,10 +65,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B5DB67242D97C2008D7E98 /* SMPCQuickSDK.framework in Frameworks */,
-				28E8CA14237A531A000D5372 /* DynamicLibrary.framework in Frameworks */,
 				28E8CA1B237A53AA000D5372 /* HJAggregationSDK.framework in Frameworks */,
 				28B5DB69242D97C2008D7E98 /* libSMPCQuickChannel.a in Frameworks */,
-				28E8CA16237A531A000D5372 /* SMSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +134,6 @@
 				28B5DB66242D97C2008D7E98 /* libSMPCQuickChannel.a */,
 				28B5DB64242D97C2008D7E98 /* SMPCQuickSDK.framework */,
 				28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */,
-				28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */,
-				28E8C9FA237A52CD000D5372 /* SMSDK.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
