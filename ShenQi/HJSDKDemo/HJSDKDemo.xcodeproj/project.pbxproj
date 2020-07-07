@@ -10,13 +10,12 @@
 		280DC2A3243C137C009C5029 /* ImageSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 280DC2A0243C137C009C5029 /* ImageSource.bundle */; };
 		280DC2A4243C137C009C5029 /* 76box.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 280DC2A1243C137C009C5029 /* 76box.bundle */; };
 		280DC2A5243C137C009C5029 /* VVSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 280DC2A2243C137C009C5029 /* VVSDK.bundle */; };
-		280DC2A8243C1407009C5029 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280DC2A7243C1407009C5029 /* StoreKit.framework */; };
 		284265A22433137300DB7A0C /* HJAggregationSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */; };
 		284265A32433137300DB7A0C /* HJAggregationSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		284265A42433137300DB7A0C /* DynamicLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */; };
-		284265A52433137300DB7A0C /* DynamicLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		284265A62433137300DB7A0C /* SMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9FA237A52CD000D5372 /* SMSDK.framework */; };
 		284265A72433137300DB7A0C /* SMSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28E8C9FA237A52CD000D5372 /* SMSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28BFE75924B47882004C4E5C /* VVSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BFE75824B47882004C4E5C /* VVSDK.framework */; };
+		28BFE75C24B478A3004C4E5C /* ChannelBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BFE75B24B478A3004C4E5C /* ChannelBridge.m */; };
 		28E8C9DF237A524A000D5372 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E8C9DE237A524A000D5372 /* AppDelegate.m */; };
 		28E8C9E2237A524A000D5372 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E8C9E1237A524A000D5372 /* ViewController.m */; };
 		28E8C9E5237A524A000D5372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E8C9E3237A524A000D5372 /* Main.storyboard */; };
@@ -44,7 +43,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				284265A52433137300DB7A0C /* DynamicLibrary.framework in Embed Frameworks */,
 				284265A72433137300DB7A0C /* SMSDK.framework in Embed Frameworks */,
 				284265A32433137300DB7A0C /* HJAggregationSDK.framework in Embed Frameworks */,
 			);
@@ -57,8 +55,10 @@
 		280DC2A0243C137C009C5029 /* ImageSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageSource.bundle; sourceTree = "<group>"; };
 		280DC2A1243C137C009C5029 /* 76box.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 76box.bundle; sourceTree = "<group>"; };
 		280DC2A2243C137C009C5029 /* VVSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VVSDK.bundle; sourceTree = "<group>"; };
-		280DC2A7243C1407009C5029 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		280DC2A9243C1410009C5029 /* HJSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HJSDKDemo.entitlements; sourceTree = "<group>"; };
+		28BFE75824B47882004C4E5C /* VVSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VVSDK.framework; sourceTree = "<group>"; };
+		28BFE75A24B478A3004C4E5C /* ChannelBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelBridge.h; sourceTree = "<group>"; };
+		28BFE75B24B478A3004C4E5C /* ChannelBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelBridge.m; sourceTree = "<group>"; };
 		28E8C9DA237A524A000D5372 /* HJSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E8C9DD237A524A000D5372 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28E8C9DE237A524A000D5372 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,7 +72,6 @@
 		28E8C9F5237A52CD000D5372 /* GameParametersList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameParametersList.plist; sourceTree = "<group>"; };
 		28E8C9F6237A52CD000D5372 /* GamePlbulic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GamePlbulic.plist; sourceTree = "<group>"; };
 		28E8C9F7237A52CD000D5372 /* ClassNameList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassNameList.plist; sourceTree = "<group>"; };
-		28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DynamicLibrary.framework; sourceTree = "<group>"; };
 		28E8C9FA237A52CD000D5372 /* SMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMSDK.framework; sourceTree = "<group>"; };
 		28E8C9FC237A52CD000D5372 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		28E8C9FD237A52CD000D5372 /* GPImagePickerControllerResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GPImagePickerControllerResource.bundle; sourceTree = "<group>"; };
@@ -92,10 +91,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				284265A42433137300DB7A0C /* DynamicLibrary.framework in Frameworks */,
+				28BFE75924B47882004C4E5C /* VVSDK.framework in Frameworks */,
 				284265A62433137300DB7A0C /* SMSDK.framework in Frameworks */,
 				284265A22433137300DB7A0C /* HJAggregationSDK.framework in Frameworks */,
-				280DC2A8243C1407009C5029 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +103,6 @@
 		280DC2A6243C1407009C5029 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				280DC2A7243C1407009C5029 /* StoreKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,8 +166,10 @@
 		28E8C9F8237A52CD000D5372 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				28BFE75A24B478A3004C4E5C /* ChannelBridge.h */,
+				28BFE75B24B478A3004C4E5C /* ChannelBridge.m */,
+				28BFE75824B47882004C4E5C /* VVSDK.framework */,
 				28E8CA19237A539F000D5372 /* HJAggregationSDK.framework */,
-				28E8C9F9237A52CD000D5372 /* DynamicLibrary.framework */,
 				28E8C9FA237A52CD000D5372 /* SMSDK.framework */,
 			);
 			path = Framework;
@@ -289,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28BFE75C24B478A3004C4E5C /* ChannelBridge.m in Sources */,
 				28E8C9E2237A524A000D5372 /* ViewController.m in Sources */,
 				28E8C9ED237A524D000D5372 /* main.m in Sources */,
 				28E8C9DF237A524A000D5372 /* AppDelegate.m in Sources */,
@@ -434,8 +434,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HJSDKDemo/HJSDKDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 6787583JGZ;
+				DEVELOPMENT_TEAM = YK27WYFG27;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +450,9 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cqssz.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = cqssh_dev;
+				PROVISIONING_PROFILE_SPECIFIER = tongYong_Dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -461,8 +462,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HJSDKDemo/HJSDKDemo.entitlements;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 6787583JGZ;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK27WYFG27;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -478,7 +480,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cqssz.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = cqssh_dev;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

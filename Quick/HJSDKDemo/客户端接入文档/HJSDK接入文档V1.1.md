@@ -103,7 +103,7 @@
 
 >App_id：游戏ID
 
->App_Channelld：未提供不更改（默认131），提供了更改成对应的数据
+>App_Channelld：未提供不更改（默认120），提供了更改成对应的数据
 
 ![GamePlbulic](https://github.com/zhongaiyemaozi/HJSDK/blob/master/Resources/Sources/GamePlbulic.png)
 

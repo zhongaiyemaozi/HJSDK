@@ -1,0 +1,6 @@
+framework module VVSDK {
+  umbrella header "VVSDK.h"
+
+  export *
+  module * { export * }
+}
