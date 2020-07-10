@@ -91,7 +91,7 @@
     gameRoleInfo.serverName = self.key_serverName;
     gameRoleInfo.gameRoleName = self.key_roleName;
     gameRoleInfo.serverId = self.key_serverId; //需要是数字字符串
-    gameRoleInfo.gameRoleID = self.uid;
+    gameRoleInfo.gameRoleID = self.key_roleId;
     gameRoleInfo.gameUserBalance = self.key_roleBalence;
     gameRoleInfo.vipLevel = self.key_roleVip;
     gameRoleInfo.gameUserLevel = self.key_roleLevel;

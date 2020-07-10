@@ -1,0 +1,7 @@
+V1.2版本更新
+
+修复角色上报问题
+
+替换SDK文件夹中的Framework文件夹中的ChannelBridge.m文件即可重新出包
+
+
