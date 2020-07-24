@@ -4,7 +4,7 @@
 //
 //
 //
-#define SMPC_QUICK_SDK_VERSION @"2.4.3" //QuickSDK基础库版本
+#define SMPC_QUICK_SDK_VERSION @"2.4.4" //QuickSDK基础库版本
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -69,7 +69,14 @@
 - (NSString *)userToken;
 // 登录后获取用户昵称
 - (NSString *)userNick;
-
+/** 查询渠道实名认证信息 */
+- (NSDictionary *)realNameInfo;
+/**
+ @brief 调用渠道实名认证
+ @result 错误码若渠道没有提供此方法会返回非0
+ @note 结果会发送kSmpcQuickSDKNotiRealAuth通知
+*/
+- (int)realAuth;
 #pragma mark - 更新角色信息
 // 进入游戏角色，角色信息变更时调用（比如升级）,请使用updateRoleInfoWith:isCreate:
 - (void)updateRoleInfoWith:(SMPCQuickSDKGameRoleInfo *)info;

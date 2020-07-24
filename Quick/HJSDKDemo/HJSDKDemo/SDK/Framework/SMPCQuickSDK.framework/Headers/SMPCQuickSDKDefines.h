@@ -17,6 +17,7 @@ extern NSString* const kSmpcQuickSDKNotiLogout;            //用户注销
 extern NSString* const kSmpcQuickSDKNotiRecharge;          //充值结果
 extern NSString* const kSmpcQuickSDKNotiPauseOver;         //暂停结束 这个回调可以不用监听
 extern NSString * const kSmpcQuickSDKNotiPlugin;           /*组件通知 见该插件接入文档，默认可以不用监听*/
+extern NSString* const kSmpcQuickSDKNotiRealAuth;             //实名认证结果通知
 
 #define QUICK_CHANNEL_TO_CP_NOTIFICATON_KEY @"quick_channel_to_cp_notification_key" //QUICK_CHANNEL_TO_CP_NOTIFICATON_KEY这个键定义了QuickSDK标准接口不能提供更多的信息给cp那边时的传输方案，这个通知带上渠道SDK需要传递到cp的信息.通常不需要，遇到了再讨论
 
@@ -35,6 +36,14 @@ extern NSString* const kSmpcQuickSDKKeyMsg;      /*Notification userinfo msg   K
 #define kSmpcQuickSDKKeyExtraParams          @"extraParams"
 // user_token
 #define kSmpcQuickSDKKeyUserToken            @"user_token"
+/** 实名认证回调是否已实名 YES:已认证NO:未认证*/
+#define kSmpcQuickSDKKeyRealName              @"realName"
+/** 实名认证后年龄 */
+#define kSmpcQuickSDKKeyRealAge              @"age"
+/** 渠道实名认证失败是否可以继续游戏 YES:可以 NO:不可以 */
+#define kSmpcQuickSDKKeyRealResumeGame              @"resumeGame"
+/** 实名认证预留字段 */
+#define kSmpcQuickSDKKeyRealOther              @"other"
 
 #pragma mark - 浮动条位置 Enum
 typedef enum {
