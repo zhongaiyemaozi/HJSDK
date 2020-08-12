@@ -1,6 +1,0 @@
-framework module QPJHLightQcSDK {
-  umbrella header "QPJHLightQcSDK.h"
-
-  export *
-  module * { export * }
-}

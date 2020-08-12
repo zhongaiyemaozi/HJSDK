@@ -1,0 +1,13 @@
+
+"enabled"             =   "enabled";
+
+"disabled"            =   "disabled";
+
+"already disabled"    =   "already disabled";
+
+"already enabled"     =   "already enabled";
+
+"You must set UIWindow.rootViewController in your AppDelegate to work with XFKeyboardManager"  =   "You must set UIWindow.rootViewController in your AppDelegate to work with XFKeyboardManager";
+
+"Previous"                              =   "Previous";
+"Next"                                  =   "Next";

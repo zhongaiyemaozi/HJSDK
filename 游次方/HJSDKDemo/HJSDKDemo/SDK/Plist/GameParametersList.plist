@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app_id</key>
+	<string>c121c773a0a9026bf9ab7b28fbd6b617</string>
+	<key>app_Name</key>
+	<string>Demo</string>
+	<key>app_key</key>
+	<string>09b8de1360fad581a970536bc131fdc7</string>
+	<key>client_key</key>
+	<string>YXgameSdk</string>
+	<key>channel_id</key>
+	<string>2</string>
+</dict>
+</plist>

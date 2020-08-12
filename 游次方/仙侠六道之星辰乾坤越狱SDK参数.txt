@@ -1,0 +1,31 @@
+游戏：仙侠六道之星辰乾坤
+
+App_Name:仙侠六道之星辰乾坤(GamePlbulic.Plist文件配置)
+App_id: 1088(GamePlbulic.Plist文件配置)
+App_Channelld:120(GamePlbulic.Plist文件配置)
+
+----------------------------------
+
+app_Name:仙侠六道之星辰乾坤（GameParametersList.plist文件配置）
+app_id：c121c773a0a9026bf9ab7b28fbd6b617（GameParametersList.plist文件配置）
+app_key: 09b8de1360fad581a970536bc131fdc7（GameParametersList.plist文件配置）
+client_key：YXgameSdk（GameParametersList.plist文件配置）
+channel_id:2
+
+
+----------------------
+
+
+App的BundleID(包名)： 
+
+
+------------------
+服务端Key（serverKey）: e67e47a14275a0352103e0d1311ccd31
+
+
+--------
+证书P12密码：123456
+
+
+
+
