@@ -67,7 +67,7 @@
                                 @"key_productName": @"6",//商品名字
                                 @"key_productdesc": @"6",//商品描述(可选)
                                 @"key_ext": @"1_80127",//扩展参数，CP订单，默认传@"1"。
-                                @"key_productPrice": @"1.00",//商品金融（单位元,要精确到小数点后两位数，比如1.00）
+                                @"key_productPrice": @"0.01",//商品金融（单位元,要精确到小数点后两位数，比如1.00）
                                 @"key_roleId": @"10000010",//角色ID
                                 @"key_roleName": @"空若冰ads",//角色名字
                                 @"key_currencyName" : @"元宝",//货币名

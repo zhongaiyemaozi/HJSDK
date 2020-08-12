@@ -121,7 +121,7 @@
     * @param serverId    服务器id;
     * @param serverName  服务器名称;
     */
-    [XiFaSDKManager PayWithMoney:self.key_productPrice ProductId:self.key_productId ProductName:self.key_productName ProductDesc:self.key_productdesc RoleId:self.key_roleId RoleName:self.key_roleName ExtInfo:self.key_ext ServerId:self.key_serverId ServerName:self.key_serverName];
+    [XiFaSDKManager PayWithMoney:self.key_productPrice ProductId:self.key_productId ProductName:self.key_productName ProductDesc:self.key_productdesc RoleId:self.key_roleId RoleName:self.key_roleName ExtInfo:self.key_cpOrderId ServerId:self.key_serverId ServerName:self.key_serverName];
     
     
     
