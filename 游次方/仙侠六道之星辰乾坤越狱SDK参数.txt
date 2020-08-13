@@ -2,7 +2,7 @@
 
 App_Name:仙侠六道之星辰乾坤(GamePlbulic.Plist文件配置)
 App_id: 1088(GamePlbulic.Plist文件配置)
-App_Channelld:120(GamePlbulic.Plist文件配置)
+App_Channelld:140(GamePlbulic.Plist文件配置)
 
 ----------------------------------
 
