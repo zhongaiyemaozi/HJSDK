@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJ8-lc-DOn">
+                                <rect key="frame" x="314" y="60" width="39" height="30"/>
+                                <state key="normal" title="登  录"/>
+                                <connections>
+                                    <action selector="loginYargetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qQe-MJ-EiK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Eo-YW-7AR">
+                                <rect key="frame" x="302.5" y="130" width="62" height="30"/>
+                                <state key="normal" title="角色上报"/>
+                                <connections>
+                                    <action selector="UserUpdateTarget:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x7V-Rx-wZi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXH-j5-ag8">
+                                <rect key="frame" x="318" y="200" width="31" height="30"/>
+                                <state key="normal" title="支付"/>
+                                <connections>
+                                    <action selector="userPayTarget:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6BP-qt-kog"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rrb-nE-b0T">
+                                <rect key="frame" x="318" y="250" width="31" height="30"/>
+                                <state key="normal" title="登出"/>
+                                <connections>
+                                    <action selector="userLogOutTarget:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GyM-fZ-f64"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rrb-nE-b0T" firstAttribute="centerX" secondItem="pXH-j5-ag8" secondAttribute="centerX" id="2WB-Hr-bVu"/>
+                            <constraint firstItem="pXH-j5-ag8" firstAttribute="top" secondItem="3Eo-YW-7AR" secondAttribute="bottom" constant="40" id="Cgl-2X-pyC"/>
+                            <constraint firstItem="pXH-j5-ag8" firstAttribute="centerX" secondItem="3Eo-YW-7AR" secondAttribute="centerX" id="NnP-fs-vIy"/>
+                            <constraint firstItem="aJ8-lc-DOn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="Qf0-A4-VSh"/>
+                            <constraint firstItem="3Eo-YW-7AR" firstAttribute="top" secondItem="aJ8-lc-DOn" secondAttribute="bottom" constant="40" id="Uq6-GP-dyN"/>
+                            <constraint firstItem="3Eo-YW-7AR" firstAttribute="centerX" secondItem="aJ8-lc-DOn" secondAttribute="centerX" id="aF8-aK-PkP"/>
+                            <constraint firstItem="rrb-nE-b0T" firstAttribute="top" secondItem="pXH-j5-ag8" secondAttribute="bottom" constant="20" id="dbb-XJ-dqa"/>
+                            <constraint firstItem="aJ8-lc-DOn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pXO-Cz-PEp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.23538230884558" y="77.599999999999994"/>
+        </scene>
+    </scenes>
+</document>
