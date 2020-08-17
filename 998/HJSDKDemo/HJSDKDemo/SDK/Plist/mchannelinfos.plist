@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>promote_id</key>
+	<string>0</string>
+	<key>promote_account</key>
+	<string>自然注册</string>
+	<key>game_name</key>
+	<string>逍遥御风诀（IOS版）</string>
+	<key>game_appid</key>
+	<string>73DFD688A47C66F13</string>
+	<key>game_id</key>
+	<string>121</string>
+	<key>game_key</key>
+	<string>jianqijiuzhourg67kf</string>
+	<key>requestURL</key>
+	<string>https://998sdk.tlyxgame.com</string>
+	<key>weixinAppId</key>
+	<string>4sd65g4f41f5461df645</string>
+	<key>QQAppId</key>
+	<string>1106031916</string>
+	<key>MCHScheme</key>
+	<string>mchpaysdkpingtaibi</string>
+	<key>ZFBMchScheme</key>
+	<string>mchptbpaysdkzfb</string>
+	<key>Secret_key</key>
+	<string>DQcAGxkKDQcQFw8IG1RCDhNVWw==</string>
+	<key>ISCross</key>
+	<string>YES</string>
+</dict>
+</plist>

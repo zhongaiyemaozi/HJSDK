@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  HJSDKDemo
+//
+//  Created by bx_zhen on 2019/11/12.
+//  Copyright © 2019 CL. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <HJAggregationSDK/HJAggregationSDK.h>
+
+#endif /* PrefixHeader_pch */
