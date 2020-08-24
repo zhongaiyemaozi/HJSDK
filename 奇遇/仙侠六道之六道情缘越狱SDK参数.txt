@@ -1,0 +1,31 @@
+游戏：仙侠六道之六道情缘
+
+App_Name:仙侠六道之六道情缘(GamePlbulic.Plist文件配置)
+App_id: 1098(GamePlbulic.Plist文件配置)
+App_Channelld:142(GamePlbulic.Plist文件配置)
+
+----------------------------------
+
+app_Name:仙侠六道之六道情缘（GameParametersList.plist文件配置）
+app_id：c121c773a0a9026bf9ab7b28fbd6b617（GameParametersList.plist文件配置）
+app_key: 09b8de1360fad581a970536bc131fdc7（GameParametersList.plist文件配置）
+client_key：YXgameSdk（GameParametersList.plist文件配置）
+channel_id:2
+
+
+----------------------
+
+
+App的BundleID(包名)： com.ldqyqiyu.game
+
+
+------------------
+服务端Key（serverKey）: ae2f8be994efb72aa368acbe18044a11
+
+
+--------
+证书P12密码：123456
+
+
+
+

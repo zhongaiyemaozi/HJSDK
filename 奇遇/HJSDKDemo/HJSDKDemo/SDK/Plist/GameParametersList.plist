@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app_Name</key>
+	<string>奇遇Demo</string>
+	<key>app_key</key>
+	<string>da14f2f484cc0a06791745994e44bca8</string>
+	<key>client_key</key>
+	<string>YXgameSdk</string>
+	<key>app_id</key>
+	<string>3c81e576c73c29411e4febb010516653</string>
+	<key>channel_id</key>
+	<string>2</string>
+	<key>game_id</key>
+	<string>com.hnqy.yxqj.x7sy</string>
+	<key>PUBLIC_KEY</key>
+	<string>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDkRoZ4AwotIPCpd5VYnM9CJr6pNM/8YXawT+vnnTY3f0hV1ii3hLVuQ7AAI1jcfHFCL2/BFGgeF59j2oVbUPrcHdOHBOoIQck/CwF3oa2kf7quIj7+bRknttP0rxtR0aBy6rwNYON9P5y9WeMTMydPHpbrQd16R0qs4TebC0DD6QIDAQAB</string>
+</dict>
+</plist>

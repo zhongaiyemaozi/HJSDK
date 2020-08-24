@@ -1,0 +1,13 @@
+
+"enabled"             =   "activé";
+
+"disabled"            =   "désactivé";
+
+"already disabled"    =   "déjà désactivé";
+
+"already enabled"     =   "déjà activé";
+
+"You must set UIWindow.rootViewController in your AppDelegate to work with QYKeyboardManager"  =   "Vous devez définir UIWindow.rootViewController dans votre AppDelegate pour QYKeyboardManager fonctionne";
+
+"Previous"                              =   "Précédent";
+"Next"                                  =   "Suivant";

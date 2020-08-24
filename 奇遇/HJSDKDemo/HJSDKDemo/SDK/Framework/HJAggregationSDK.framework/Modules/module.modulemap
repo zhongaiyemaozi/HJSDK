@@ -1,0 +1,6 @@
+framework module HJAggregationSDK {
+  umbrella header "HJAggregationSDK.h"
+
+  export *
+  module * { export * }
+}
